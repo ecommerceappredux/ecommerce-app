@@ -3,7 +3,7 @@ This is an ecommerce webapplication which is bootstrapped with [Create React App
 ## Demo
 To see the demo please visit https://ecommerceappredux.github.io/
 
-## Dependancies
+## Dependencies
 This webapplication has state management with redux and all materials are from @material-ui .
 Due to simplicity and redux based subject application , filter and search is not included in the application .
 
