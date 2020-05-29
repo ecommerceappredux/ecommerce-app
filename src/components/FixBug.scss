@@ -1,0 +1,9 @@
+.bug {
+	display: none;
+	background: transparent;
+	width: 100%;
+	height: 42px;
+	@media (max-width: 730px) {
+		display: block;
+	}
+}

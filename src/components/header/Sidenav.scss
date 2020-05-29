@@ -1,0 +1,143 @@
+.sidenav {
+	font-family: 'Vazir', sans-serif;
+
+	&:focus {
+		outline: none !important;
+	}
+
+	&__logo-text {
+		font-size: 1.2em;
+	}
+
+	&__catmain {
+		margin: 0;
+		padding: 0;
+	}
+
+	&__cat {
+		width: 100% !important;
+		background: rgb(250, 250, 250) !important;
+		color: rgb(216, 216, 216) !important;
+		&-btn {
+			margin: 0;
+			margin-left: 3em;
+			margin-right: auto;
+		}
+		&-img {
+			width: 25px;
+			height: 25px;
+			margin-left: 1.5em;
+		}
+	}
+
+	&__logo {
+		margin-top: 1em;
+	}
+
+	&__info {
+		position: absolute;
+		bottom: 20px;
+		left: 20%;
+		z-index: -9999;
+		img {
+			width: 80px;
+			height: 35px;
+			margin-left: 20px;
+			margin-top: 8px;
+		}
+	}
+
+	&__about {
+		transition: all .4s !important;
+		font-size: .9em !important;
+		&:hover {
+			background: rgb(245, 245, 245) !important;
+		}
+		padding: 0 !important;
+		margin: 0 !important;
+		height: 48px !important;
+		background: white !important;
+		&-icon {
+			width: 24px;
+			height: 24px;
+		}
+		&-link {
+			text-decoration: none !important;
+			&-text {
+				font-size: .8em;
+				margin-top: .3em;
+			}
+		}
+		&-img {
+			margin-left: 2em;
+			width: 22px;
+			height: 18px;
+		}
+		&-close {
+			margin-right: 1em !important;
+			margin-bottom: 1em !important;
+			font-size: 1.3em;
+			&:focus {
+				outline: none !important;
+			}
+		}
+	}
+}
+
+.hamburger-menu {
+	background: transparent;
+	border: none;
+	padding: 5px;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.MuiExpansionPanelDetails-root {
+	padding: 0 !important;
+	padding-right: 0 !important;
+}
+.MuiExpansionPanel-root {
+	transition: all .4s !important;
+	&:hover {
+		background: rgb(245, 245, 245) !important;
+	}
+}
+
+.MuiButton-text {
+	width: 100% !important;
+}
+
+.MuiList-root {
+	padding: 0 !important;
+}
+
+.line {
+	padding: 0;
+	width: 100%;
+	height: 1.4px;
+	margin: 0 !important;
+	background: rgb(230, 230, 230) !important;
+}
+
+.navlink {
+	padding: 0;
+	margin: 0;
+	display: block;
+	&:hover {
+		text-decoration: none;
+	}
+	&-active {
+		background: rgb(230, 230, 230) !important;
+	}
+}
+
+.more {
+	margin-left: 6.9em;
+	&more {
+		margin: 0;
+		margin-left: 6em;
+		// margin-right: auto;
+	}
+}

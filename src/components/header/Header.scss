@@ -1,0 +1,102 @@
+.header {
+	font-family: 'Vazir', sans-serif;
+	height: 70px;
+	width: 100%;
+	background: white;
+	box-shadow: 9px 9px 33px #ebebeb, -9px -9px 33px #ffffff;
+	&--desktop {
+		display: flex;
+		@media (max-width: 730px) {
+			display: none;
+		}
+	}
+
+	&--mobile {
+		display: none;
+		@media (max-width: 730px) {
+			display: block;
+		}
+	}
+
+	&__search {
+		width: 100%;
+
+		&--desktop {
+			height: 30px;
+			margin-left: 20px;
+			margin-right: 10px;
+			width: 265px;
+			background: transparent;
+			border: none;
+			&:focus {
+				outline: none !important;
+			}
+		}
+		&--mobile {
+			display: none;
+
+			@media (max-width: 730px) {
+				display: block;
+			}
+		}
+	}
+}
+
+.logo {
+	width: 125px;
+	height: 55px;
+	margin: 0 10px;
+	@media (max-width: 730px) {
+		margin: 0;
+	}
+	&__img {
+		width: 125px;
+		height: 55px;
+	}
+}
+
+.MuiBadge-badge {
+	background: rgb(17, 146, 0) !important;
+}
+
+.cart__button {
+	&:focus {
+		outline: none !important;
+	}
+}
+
+.searchbar {
+	background: rgb(248, 248, 248);
+	border-radius: 20px;
+	padding: 1px;
+	transition: all .4s;
+	&:hover {
+		box-shadow: 0 0 5px rgb(223, 223, 223);
+	}
+}
+
+.search-icon {
+	width: 25px;
+	height: 25px;
+	&-btn {
+		padding: 8px !important;
+		margin: 0 !important;
+		&:focus {
+			outline: none !important;
+		}
+	}
+}
+
+.search__mobile {
+	background: transparent;
+	border: none;
+	width: 100%;
+	margin-right: 10px;
+	&:focus {
+		outline: none;
+	}
+	&-container {
+		background: white;
+		border-bottom: 1px solid rgb(243, 243, 243);
+	}
+}

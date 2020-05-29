@@ -1,0 +1,54 @@
+.cart__btn {
+	padding: 0 !important;
+	margin: 0 !important;
+	&:focus {
+		outline: none;
+	}
+}
+
+.cart__img {
+	width: 50px;
+}
+
+.cart__link {
+	text-decoration: none;
+	color: black;
+	&:hover {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+.mytext {
+	font-size: .6em;
+}
+
+.cart__discount {
+	width: 80%;
+	height: 35px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	margin: 0 auto;
+	&:focus {
+		outline: none;
+	}
+
+	&-btn {
+		width: 80%;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+.alert {
+	background: rgb(28, 179, 36);
+	border: 1px solid gray;
+	position: absolute;
+	color: white;
+	top: 100px;
+	right: 10px;
+	width: 200px;
+	height: 50px;
+	z-index: 999999999999;
+}
