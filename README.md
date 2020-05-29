@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an ecommerce webapplication which is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Demo
+To see the demo please visit https://ecommerceappredux.github.io/
+
+## Dependancies
+This webapplication has state management with redux and all materials are from @material-ui .
+Due to simplicity and redux based subject application , filter and search is not included in the application .
+
 
 ## Available Scripts
 
